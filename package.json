@@ -1,0 +1,22 @@
+{
+  "name": "backup-database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "backup": "src/index.js"
+  },
+  "dependencies": {
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0",
+    "mongoose": "^8.5.1",
+    "mysql": "^2.18.1",
+    "pg": "^8.12.0"
+  }
+}
