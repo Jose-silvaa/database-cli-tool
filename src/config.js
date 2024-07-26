@@ -15,8 +15,6 @@ program.parse(process.argv);
 // Get the parsed options
 const options = program.opts();
 
-console.log(options);
-
 // Check if required options are provided
 if (!options.host || !options.user || !options.password || !options.port || !options.database) {
   console.error('All options are required');
