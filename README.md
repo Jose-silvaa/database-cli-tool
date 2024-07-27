@@ -19,8 +19,9 @@ providing an easy way to connect and manage various database operations
 
 ```bash
 git clone https://github.com/Jose-silvaa/database-cli-tool.git
-cd src
+cd database-cli-tool
 npm install
+cd src
 
 ``````
 
@@ -39,14 +40,25 @@ Start the application:
 node index.js -h localhost -p [Database port] -u [Database user] -P [Database password] -d [Database name]
 ````
 
-<h2>Arguments</h2>
+<h4>Arguments</h4>
 
-<li> -h : The hostname of the database (default is localhost).</li>
 <li> -p : The port number on which the database is running.</li>
 <li> -u : The username that has permission to access the database.</li>
 <li> -P : The password associated with the database user.</li>
 <li> -d : The name of the database you want to connect to.</li>
 
+<h3>Using the Binary File</h3>
+
+<p>Run the binary file with the required arguments:</p>
+
+````bash
+  backup -h localhost -p [Database port] -u [Database user] -P [Database password] -d [Database name]
+
+````
+
+<h4>Binary File Arguments</h4>
+
+<p>The arguments for the binary file are the same as for the Node.js script</p>
 
 ## Licença
 
