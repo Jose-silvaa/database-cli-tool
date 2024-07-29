@@ -5,8 +5,7 @@
 
 ## Description
 
-A command-line tool for interacting with databases, 
-providing an easy way to connect and manage various database operations
+A command-line tool for interacting with databases.
 
 <h3>Prerequisites</h3>
 
